@@ -3,17 +3,29 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Earth Page</title>
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+    <h1>Earth</h1>
+
+    <!-- ChatGPT, Prompt: Write a short paragraph describing the earth in some scientific detail -->
+    <p class="info-text">
+      Earth is the third planet from the Sun and the only known celestial body to support life. 
+      It has a diameter of about 12,742 kilometers and is composed of a dense iron-nickel core, 
+      a viscous mantle of silicate rock, and a thin, rigid crust. Earth's surface is approximately 71% water, 
+      primarily in the form of vast oceans, with the remainder consisting of continents and islands. 
+      The planet has a dynamic atmosphere, composed mainly of nitrogen (78%) and oxygen (21%), which 
+      plays a crucial role in regulating temperature and weather patterns. Earth's magnetic field, 
+      protects the surface from harmful solar radiation, while the ozone layer in the stratosphere 
+      shields life from ultraviolet rays.
+    </p>
+
+    <div class="planets-div">
+      <a href="index.html"><img src="nasa-earth.jpg" class="earth-img active-img" alt="Picture of the earth"></a>
+      <a href="moon.html"><img src="alex-moon.jpg" class="moon-img" alt="Picture of the moon"></a>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>
